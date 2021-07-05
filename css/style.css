@@ -40,6 +40,7 @@ body {
 #nav-list a {
     color: #951c49;
     text-align: center;
+    font-weight: bold;
 }
 
 #nav-list a:hover {
@@ -54,11 +55,9 @@ body {
     margin-top: 5px;    
 }
 
-#phone a {
-    text-align: right;
+#phone a, span {
     padding-bottom: 0;
     color: #951c49;
-    text-align: center;
     text-decoration: none;   
     font-weight: bold;
 }
