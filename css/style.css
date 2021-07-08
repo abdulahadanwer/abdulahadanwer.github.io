@@ -1,85 +1,136 @@
 body {
-    font-size: 16px;
-    color: black;
-    background-color: #61124d;
-    font-family: 'Oxygen', sans-serif;
+  font-size: 16px;
+  color: black;
+  background-color: #61124d;
+  font-family: "Oxygen", sans-serif;
 }
 
 #header-nav {
-    background-color: beige;
-    border-radius: 0;
-    border: 0;
+  background-color: beige;
+  border-radius: 0;
+  border: 0;
 }
 
 #navbar-brand-text {
-    font-family: 'Prata', serif;
-    color: black;
-    font-size: 0.95em;
-    font-weight: bold;
-    text-shadow: 1px 1px 1px #222;
-    margin-top: 0;
-    margin-bottom: 0;
-    line-height: .75;
+  font-family: "Prata", serif;
+  color: black;
+  font-size: 0.95em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 0.75;
 }
 
 #navbar-brand-text-sm {
-    font-family: 'Prata', serif;
-    color: black;
-    font-size: 0.75em;
-    font-weight: bold;
-    text-shadow: 1px 1px 1px #222;
-    margin-top: 0;
-    margin-bottom: 0;
-    line-height: .75;
+  font-family: "Prata", serif;
+  color: black;
+  font-size: 0.75em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 0.75;
 }
 
 #nav-list {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 #nav-list a {
-    color: #951c49;
-    text-align: center;
-    font-weight: bold;
+  color: #951c49;
+  text-align: center;
+  font-weight: bold;
 }
 
 #nav-list a:hover {
-    background-color: #e7e7e7;
+  background-color: #e7e7e7;
 }
 
 #nav-list a span {
-    font-size: 1.8em;
+  font-size: 1.8em;
 }
 
 #phone {
-    margin-top: 5px;    
+  margin-top: 5px;
 }
 
-#phone a, span {
-    padding-bottom: 0;
-    color: #951c49;
-    text-decoration: none;   
-    font-weight: bold;
+#phone a,
+span {
+  padding-bottom: 0;
+  color: #951c49;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 #phone a:hover {
-    background-color: #e7e7e7;
+  background-color: #e7e7e7;
 }
 
 #phone {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
-.navbar-light .navbar-toggler, .navbar-light .navbar-toggler-icon {
-    border: 1px solid #61122f;
+.navbar-light .navbar-toggler,
+.navbar-light .navbar-toggler-icon {
+  border: 1px solid #61122f;
 }
 
 .navbar-light .navbar-toggler {
-    clear: both;
+  clear: both;
 }
 
 @media (min-width: 992px) {
-    #phone {
-        display: none;
-    }
+  #phone {
+    display: none;
+  }
 }
+
+/**
+ Start Home Page
+*/
+#services-tile,
+#products-tile,
+#map-tile {
+  height: 270px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3f0c1f;
+  overflow: hidden;
+}
+
+#services-tile:hover,
+#products-tile:hover,
+#map-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#services-tile {
+  background: url("../images/services-img.jpg") no-repeat;
+  background-position: center;
+}
+
+#products-tile {
+  background: url("../images/products-img.jpg") no-repeat;
+  background-position: center;
+}
+
+#services-tile span,
+#products-tile span,
+#map-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .6;
+}
+
+/**
+End Home Page
+*/
