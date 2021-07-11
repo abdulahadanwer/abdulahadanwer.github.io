@@ -1,6 +1,7 @@
+/* Starting header */
 body {
   font-size: 16px;
-  color: black;
+  color: white;
   background-color: #61124d;
   font-family: "Oxygen", sans-serif;
 }
@@ -79,7 +80,24 @@ span {
 .navbar-light .navbar-toggler {
   clear: both;
 }
+/* Finish header */
 
+/* Start footer */
+.panel-footer {
+    margin-top: 30px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background-color: #222;
+    border-top: 0;
+}
+
+.social-media-dimensions{
+	width: 35px;
+    height: 35px;
+    padding-left: 1px;
+    padding-right: 1px;
+}
+/* Finish footer */
 @media (min-width: 992px) {
   #phone {
     display: none;
