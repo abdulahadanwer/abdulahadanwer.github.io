@@ -84,20 +84,35 @@ span {
 
 /* Start footer */
 .panel-footer {
-    margin-top: 30px;
-    padding-top: 35px;
-    padding-bottom: 30px;
-    background-color: #222;
-    border-top: 0;
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color: #222;
+  border-top: 0;
+}
+.panel-footer div.row {
+  margin-bottom: 35px;
 }
 
-.social-media-dimensions{
-	width: 35px;
-    height: 35px;
-    padding-left: 1px;
-    padding-right: 1px;
+@media (max-width: 576px) {
+  .visible-xs {
+    display: block;
+  }
 }
+@media (min-width: 576px) {
+  .visible-xs {
+    display: none;
+  }
+}
+
 /* Finish footer */
+.social-media-dimensions {
+  width: 35px;
+  height: 35px;
+  padding-left: 1px;
+  padding-right: 1px;
+}
+
 @media (min-width: 992px) {
   #phone {
     display: none;
@@ -146,7 +161,7 @@ span {
   text-transform: uppercase;
   background-color: #000;
   color: #fff;
-  opacity: .6;
+  opacity: 0.6;
 }
 
 /**
