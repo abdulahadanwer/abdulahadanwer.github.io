@@ -5,13 +5,11 @@ body {
   background-color: #61124d;
   font-family: "Oxygen", sans-serif;
 }
-
 #header-nav {
   background-color: beige;
   border-radius: 0;
   border: 0;
 }
-
 #navbar-brand-text {
   font-family: "Prata", serif;
   color: black;
@@ -22,7 +20,6 @@ body {
   margin-bottom: 0;
   line-height: 0.75;
 }
-
 #navbar-brand-text-sm {
   font-family: "Prata", serif;
   color: black;
@@ -33,29 +30,23 @@ body {
   margin-bottom: 0;
   line-height: 0.75;
 }
-
 #nav-list {
   margin-top: 10px;
 }
-
 #nav-list a {
   color: #951c49;
   text-align: center;
   font-weight: bold;
 }
-
 #nav-list a:hover {
   background-color: #e7e7e7;
 }
-
 #nav-list a span {
   font-size: 1.8em;
 }
-
 #phone {
   margin-top: 5px;
 }
-
 #phone a,
 span {
   padding-bottom: 0;
@@ -63,20 +54,16 @@ span {
   text-decoration: none;
   font-weight: bold;
 }
-
 #phone a:hover {
   background-color: #e7e7e7;
 }
-
 #phone {
   margin-top: 10px;
 }
-
 .navbar-light .navbar-toggler,
 .navbar-light .navbar-toggler-icon {
   border: 1px solid #61122f;
 }
-
 .navbar-light .navbar-toggler {
   clear: both;
 }
@@ -93,7 +80,15 @@ span {
 .panel-footer div.row {
   margin-bottom: 35px;
 }
-
+#quick-links a {
+  color: white;
+  text-decoration: none;
+}
+#quick-links a:hover {
+    background-color: #e7e7e7;
+    color: #951c49;
+    font-weight: bold;
+  }
 @media (max-width: 576px) {
   .visible-xs {
     display: block;
@@ -104,8 +99,8 @@ span {
     display: none;
   }
 }
-
 /* Finish footer */
+
 .social-media-dimensions {
   width: 35px;
   height: 35px;
@@ -132,23 +127,19 @@ span {
   border: 2px solid #3f0c1f;
   overflow: hidden;
 }
-
 #services-tile:hover,
 #products-tile:hover,
 #map-tile:hover {
   box-shadow: 0 1px 5px 1px #cccccc;
 }
-
 #services-tile {
   background: url("../images/services-img.jpg") no-repeat;
   background-position: center;
 }
-
 #products-tile {
   background: url("../images/products-img.jpg") no-repeat;
   background-position: center;
 }
-
 #services-tile span,
 #products-tile span,
 #map-tile span {
@@ -163,7 +154,6 @@ span {
   color: #fff;
   opacity: 0.6;
 }
-
 /**
 End Home Page
 */
