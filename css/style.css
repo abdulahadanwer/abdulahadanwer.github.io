@@ -1,10 +1,12 @@
-/* Starting header */
+/* Common styles */
 body {
   font-size: 16px;
   color: white;
-  background-color: #61124d;
+  background-color: darkslategray;
   font-family: "Oxygen", sans-serif;
 }
+
+/* Starting header */
 #header-nav {
   background-color: beige;
   border-radius: 0;
@@ -34,7 +36,7 @@ body {
   margin-top: 10px;
 }
 #nav-list a {
-  color: #951c49;
+  color: black;
   text-align: center;
   font-weight: bold;
 }
@@ -53,9 +55,12 @@ body {
 #phone a,
 span {
   padding-bottom: 0;
-  color: #951c49;
+  color: black;
   text-decoration: none;
   font-weight: bold;
+}
+span {
+  color: lightcoral;
 }
 #phone a:hover {
   background-color: #e7e7e7;
@@ -69,6 +74,11 @@ span {
 }
 .navbar-light .navbar-toggler {
   clear: both;
+}
+@media (min-width: 992px) {
+  #phone {
+    display: none;
+  }
 }
 /* Finish header */
 
@@ -88,9 +98,20 @@ span {
   text-decoration: none;
 }
 #quick-links a:hover {
-    color: #951c49;
+    color: black;
     font-weight: bold;
   }
+.social-media-dimensions {
+  width: 35px;
+  height: 35px;
+  padding-left: 1px;
+  padding-right: 1px;
+}
+/* Finish footer */
+
+/**
+ Start Home Page
+*/
 @media (max-width: 576px) {
   .visible-xs {
     display: block;
@@ -101,24 +122,6 @@ span {
     display: none;
   }
 }
-/* Finish footer */
-
-.social-media-dimensions {
-  width: 35px;
-  height: 35px;
-  padding-left: 1px;
-  padding-right: 1px;
-}
-
-@media (min-width: 992px) {
-  #phone {
-    display: none;
-  }
-}
-
-/**
- Start Home Page
-*/
 #services-tile,
 #products-tile,
 #map-tile {
@@ -126,7 +129,7 @@ span {
   width: 100%;
   margin-bottom: 15px;
   position: relative;
-  border: 2px solid #3f0c1f;
+  border: 2px solid black;
   overflow: hidden;
 }
 #services-tile:hover,
@@ -159,3 +162,7 @@ span {
 /**
 End Home Page
 */
+/* Start About us page */
+.about-us-rows {
+  padding-top: 30px;
+}
