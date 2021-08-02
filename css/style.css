@@ -40,14 +40,14 @@ body {
   text-align: center;
   font-weight: bold;
 }
-#nav-list a:hover {
+#nav-list a:hover, a:active {
   background-color: #e7e7e7;
 }
 #nav-list a span {
   font-size: 1.8em;
 }
-#nav-list a:active {
-    background-color: #e7e7e7;
+.navbar-nav .current {
+  background-color: #e7e7e7;
 }
 #phone {
   margin-top: 5px;
