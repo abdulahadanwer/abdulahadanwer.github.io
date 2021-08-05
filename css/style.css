@@ -171,3 +171,16 @@ End Home Page
 .about-us-rows {
   padding-top: 30px;
 }
+/* Start Services page */
+.bg-overlay {
+  background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("/images/services-main-page.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: #fff;
+  height: 450px;
+  padding-top: 50px;
+}
+.services-pic-text {
+  padding-top: 120px;
+}
