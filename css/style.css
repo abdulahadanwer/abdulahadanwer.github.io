@@ -42,7 +42,7 @@ body {
   text-align: center;
   font-weight: bold;
 }
-#nav-list a:hover, a:active {
+#nav-list a:hover {
   background-color: #e7e7e7;
 }
 #nav-list a span {
@@ -175,6 +175,7 @@ End Home Page
 .bg-overlay {
   background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("/images/services-main-page.jpg");
   background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
   background-position: center center;
   color: #fff;
