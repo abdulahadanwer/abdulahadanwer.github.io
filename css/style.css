@@ -174,8 +174,7 @@ End Home Page
 /* Start Services page */
 .bg-overlay {
   background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("/images/services-main-page.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-repeat: no-repeat;  
   background-size: cover;
   background-position: center center;
   color: #fff;
@@ -185,3 +184,9 @@ End Home Page
 .services-pic-text {
   padding-top: 120px;
 }
+@media (min-width: 576px) {
+  .fixed-attachment {
+    background-attachment: fixed;
+  }
+}
+
